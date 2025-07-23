@@ -127,7 +127,7 @@ tahmin_ve_risk_skoru <- function(Sales.Region, OrderType, CustomerType, CustStat
 cat("\n--- Ornek bir musteri icin risk analizi yapiliyor... ---\n")
 tahmin_ve_risk_skoru(
   Sales.Region = "S Central East", OrderType = "Wholesale", CustomerType = "Business",
-  CustState = "Texas", ProdCategory = "Drone Kits", Quantity = 2, Price = 125,
-  Discount = 0, Order.Total = 250, Payment.Plan = "Yes", CustomerTenure = 0.1
+  CustState = "Texas", ProdCategory = "Drone Kits", Quantity = 10, Price = 125,
+  Discount = 0, Order.Total = 1250, Payment.Plan = "Yes", CustomerTenure = 0.1
 )
 
