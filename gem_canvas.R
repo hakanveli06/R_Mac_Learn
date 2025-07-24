@@ -7,7 +7,8 @@
 # ADIM 1: Gerekli KC<tC<phanelerin YC<klenmesi
 # -------------------------------------------------------------------
 # Gerekirse bu satD1rD1 C'alD1EtD1rD1n:
-# install.packages(c("readr", "dplyr", "lubridate", "caret", "randomForest", "ggplot2"))
+install.packages(c("readr", "dplyr", "lubridate", "caret", "randomForest", "ggplot2","readxl"))
+install.packages("caret", dependencies = TRUE)
 library(readr)
 library(dplyr)
 library(lubridate)
